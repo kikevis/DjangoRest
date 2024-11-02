@@ -37,7 +37,7 @@ THIRD_PARTY_APPS = [
     'corsheaders',
     'rest_framework',
     'ckeditor',
-    'ckeditor_uploader'
+    'ckeditor_uploader',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
@@ -55,6 +55,7 @@ CKEDITOR_CONFIGS = {
         'autoParagraph': False
     }
 }
+
 CKEDITOR_UPLOAD_PATH = "/media/"
 
 MIDDLEWARE = [
